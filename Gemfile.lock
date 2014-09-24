@@ -69,6 +69,7 @@ GEM
       omniauth (~> 1.0)
     omniauth-rdio (0.1.0)
       omniauth-oauth (~> 1.0)
+    pg (0.17.1)
     polyglot (0.3.5)
     pry (0.10.1)
       coderay (~> 1.1.0)
@@ -89,6 +90,11 @@ GEM
       activesupport (= 3.2.13)
       bundler (~> 1.0)
       railties (= 3.2.13)
+    rails_12factor (0.0.2)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.2)
+    rails_stdout_logging (0.0.3)
     railties (3.2.13)
       actionpack (= 3.2.13)
       activesupport (= 3.2.13)
@@ -136,8 +142,10 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
   omniauth-rdio
+  pg
   pry
   rails (= 3.2.13)
+  rails_12factor
   rdio_api
   sass-rails (~> 3.2.3)
   sqlite3
